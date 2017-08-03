@@ -9,12 +9,12 @@ var b = Math.round((element - 1) * getRandom(0, 1));
 var aTrim = a / manaDices;
 
 var aInt = aTrim - aTrim % 1;
-var aDivisor = a % manaDices
+var aDivisor = a % manaDices;
 
 var a1 = toBase(aInt, 6, 0)
 var a2 = toBase(aDivisor, 2, 0);
 
-document.write(a);
+document.write(aDivisor);
 
 function toBase(number, radix, digits) {
     if (digits && digits.length >= radix)

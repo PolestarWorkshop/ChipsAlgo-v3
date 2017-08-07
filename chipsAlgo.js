@@ -1,3 +1,5 @@
+//
+
 var manaDices = Math.pow(2,9);
 var weapons = Math.pow(6,4);
 var element = Math.pow(6,10);
